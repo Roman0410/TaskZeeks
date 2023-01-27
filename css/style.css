@@ -1,0 +1,454 @@
+body {
+  margin: 0;
+  background-color: #1d1e20;
+  font-family: "Cabin", sans-serif;
+  padding-top: 224px;
+  padding-bottom: 200px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+button {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*----------------TITLE-----------------*/
+
+.title {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #e8e8e8;
+  margin-bottom: 52px;
+}
+
+/*-----------------LICENSE----------------*/
+.licens {
+  margin-bottom: 52px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+.licens-list {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+.licens-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.licens-item p {
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+}
+.ques {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  text-decoration-line: underline;
+  color: #36c727;
+  cursor: pointer;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+/*-----------------NAV--------------------*/
+.table-nav {
+  padding: 0 64px;
+  margin-bottom: 20px;
+}
+.table-nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+.table-nav-item {
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+  text-align: center;
+}
+.col-1 {
+}
+.col-2 {
+  max-width: 90px;
+  width: 100%;
+  padding-right: 10px;
+}
+.col-3 {
+  max-width: 123px;
+  width: 100%;
+}
+.col-4 {
+  max-width: 76px;
+  width: 100%;
+}
+.col-5 {
+  max-width: 260px;
+  width: 100%;
+}
+.col-6 {
+  max-width: 164px;
+  width: 100%;
+}
+
+/*-------------------CASINO------------*/
+.casino {
+}
+.casino-list {
+}
+.casino-item {
+  padding: 20px 64px;
+  background: #242528;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: all 0.2s linear;
+}
+.casino-item:hover,
+.casino-item:focus {
+  background: #242528;
+  outline: 1px solid rgba(232, 232, 232, 0.1);
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.25);
+}
+.casino-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.number {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.logo {
+  max-width: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bonus {
+  max-width: 123px;
+  width: 100%;
+}
+.bonus p:first-child {
+  max-width: 76px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.bonus p:nth-child(2) {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  background: linear-gradient(119.17deg, #caff70 -97.63%, #2fc423 80.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 6px 0;
+}
+.bonus p:last-child {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.rate {
+  max-width: 76px;
+  width: 100%;
+  text-align: center;
+}
+.rate-lvl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+.rate p {
+  font-size: 18px;
+  line-height: 160%;
+  color: #e8e8e8;
+  margin: 5px 0;
+}
+.rate a {
+  font-size: 14px;
+  line-height: 140%;
+  text-decoration-line: underline;
+  cursor: pointer;
+  color: #36c727;
+}
+.deposit {
+  max-width: 260px;
+  width: 100%;
+}
+.deposut-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 260px;
+  width: 100%;
+}
+/* .deposit-item:nth-child(-n + 3) {
+  margin-bottom: 20px;
+} */
+.deposit-item {
+  width: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+}
+.deposit-item img {
+  max-width: 70px;
+}
+.btn {
+  max-width: 164px;
+  width: 100%;
+}
+.visit {
+  display: none;
+}
+.btn button {
+  width: 100%;
+  padding: 15px 5px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(119.17deg, #caff70 -97.63%, #2fc423 80.67%);
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s linear;
+}
+.btn:hover button {
+  transform: scale(1.05);
+}
+
+/*------------------------SEE_MORE--------------------*/
+.more {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more button {
+  border: 1px solid #36c727;
+  border-radius: 12px;
+  padding: 17px 58px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.more button:hover {
+  background-color: #303133b0;
+}
+@media screen and (max-width: 950px) {
+  .get {
+    display: none;
+  }
+  .visit {
+    display: block;
+  }
+  .table-nav {
+    display: none;
+  }
+  .casino-info {
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+  }
+  .number {
+    display: none;
+  }
+  .casino-item {
+    padding: 25px 25px 40px 25px;
+  }
+  .logo {
+    margin-bottom: -15px;
+  }
+  .bonus {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+  }
+  .bonus p:first-child {
+    text-align: center;
+    margin: 0 auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  .bonus p:nth-child(2) {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    margin: 6px 0;
+  }
+  .bonus p:last-child {
+    font-size: 16px;
+    line-height: 180%;
+  }
+  .rate {
+    max-width: 100%;
+    width: 100%;
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+  }
+  .rate-lvl {
+    gap: 10px;
+  }
+  .rate-lvl img {
+    width: 16px;
+    height: 16px;
+  }
+  .rate p {
+    font-size: 18px;
+    line-height: 160%;
+    color: #e8e8e8;
+    margin: 5px 0;
+  }
+  .rate a {
+    font-size: 14px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #36c727;
+  }
+  .deposit {
+    max-width: 301px;
+    width: 100%;
+    /* margin-bottom: 25px; */
+    display: flex;
+    justify-content: center;
+  }
+  .deposut-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 260px;
+    width: 100%;
+  }
+  .deposit-item {
+    width: calc(100% / 3);
+  }
+  .btn {
+    max-width: 164px;
+    width: 100%;
+  }
+  .btn button {
+    width: 100%;
+    padding: 15px 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(119.17deg, #caff70 -97.63%, #2fc423 80.67%);
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s linear;
+  }
+}
+@media screen and (max-width: 874px) {
+  .licens-item {
+    gap: 10px;
+  }
+  .licens-item img {
+    max-width: 30px;
+  }
+  .licens-list {
+    gap: 20px;
+  }
+  .ques {
+    margin: 0;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .description {
+    font-size: 16px;
+    margin-bottom: 41px;
+  }
+}
+@media screen and (max-width: 402px) {
+  .licens-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 440px) {
+  .btn {
+    max-width: 100%;
+  }
+}
